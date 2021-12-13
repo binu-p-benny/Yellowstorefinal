@@ -2541,7 +2541,7 @@ $productDetails  = Mst_store_product::join('mst_store_categories','mst_store_cat
 
                         $product['product_type'] = 1;
 
-                        $product['product_status'] = 0;
+                        $product['product_status'] = 1;
                         $product['draft'] = 1;
 
                         Mst_store_product::create($product);
