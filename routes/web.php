@@ -41,7 +41,7 @@ Route::get('/store/terms-and-condition', 'PublicController@showTC');
 // Super Admin login
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::get('/admin-login', 'Auth\LoginController@store-login')->name('admin.login');
+//Route::get('/admin-login', 'Auth\LoginController@store-login')->name('admin.login');
 // Super Admin Forgot password
 Route::get('/admin-login', 'Auth\LoginController@showLoginForm')->name('admin.login');
 
