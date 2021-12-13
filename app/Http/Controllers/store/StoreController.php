@@ -3455,7 +3455,7 @@ public function destroyAttr_Group(Request $request,Mst_attribute_group $attribut
     // $product->vendor_id = $global_product->vendor_id;
      $product->global_product_id = $global_product->global_product_id;
 
-     $product->product_status = 0;
+     $product->product_status = 1;
      $product->product_type = 1;
      $product->draft = 1;
 
@@ -3649,7 +3649,7 @@ public function destroyAttr_Group(Request $request,Mst_attribute_group $attribut
               $product['global_product_id'] = $global_product_id;
               $product['product_brand'] = $global_product->product_brand;;
               
-              $product['product_status'] = 0;
+              $product['product_status'] = 1;
               $product['product_type'] = 1;
               $product['draft'] = 1;
               
